@@ -91,4 +91,4 @@ async def clear(ctx):
 
 
 
-bot.run("NjIxNjc0MTk0MzQxNDYyMDE2.XXoxNg.sVI0OHOLPNjquq3kryZcpeTK8CE")
+bot.run("YOURTOKEN")
