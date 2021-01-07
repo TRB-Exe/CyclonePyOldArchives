@@ -9,6 +9,8 @@ bot = commands.Bot(command_prefix="_")
 bot.remove_command("help")
 bot.load_extension("jishaku")
 
+# Cyclone Version 000 Codename GlobalCyclone
+
 
 @bot.event
 async def on_ready():
