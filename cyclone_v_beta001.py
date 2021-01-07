@@ -9,7 +9,7 @@ bot = commands.Bot(command_prefix="_")
 bot.remove_command("help")
 bot.load_extension("jishaku")
 
-
+# Бета версия бота 001 кодовое имя WHelp
 
 @bot.event
 async def on_ready():
