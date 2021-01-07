@@ -49,12 +49,13 @@ async def invite(ctx):
 
 
 
-bot.run("NjIxNjc0MTk0MzQxNDYyMDE2.XXoxNg.sVI0OHOLPNjquq3kryZcpeTK8CE")"
+bot.run("YOURTOKEN")
 
+@bot.command()
 async def ban(ctx, member : discord.Member, reason=None):
     if reason == None:
         await ctx.send("введите причину")
     else:
-        messageok = f"You have been banned from {ctx.guild.name} for {reason}"
-        await member.send(messageok)
+        lsmessban = f"Вы были забанен на {ctx.guild.name} по причине: {reason}"
+        await member.send(lsmessban)
         await member.ban(reason=reason)
