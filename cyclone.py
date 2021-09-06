@@ -14,7 +14,7 @@ from discord.ext.commands import has_permissions, CheckFailure
 bot = commands.Bot(command_prefix="_")
 bot.remove_command("help")
 bot.load_extension("jishaku")
-TOKEN = "ODE1OTg1OTgwNjI4NjY0MzQy.YD0YKg.SZ62ux9WXcI02NnDHUyw761ZlDM"
+TOKEN = "хуекен"
 
 # логгер который уже не работает из-за хероку
 
