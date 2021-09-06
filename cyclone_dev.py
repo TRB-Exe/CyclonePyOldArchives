@@ -96,4 +96,4 @@ async def ban(ctx, user: discord.Member, *, reason=None):
 
 
 
-bot.run("NjE1MTk3NTIzMDk0Nzk4MzU4.XWKhVw.cTtAfWdDw9Gxp4VTKV7-N79iXbA")
+bot.run("хуекен")
