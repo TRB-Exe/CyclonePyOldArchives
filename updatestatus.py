@@ -27,4 +27,4 @@ async def on_ready():
 
 
 
-bot.run("ODE1OTg1OTgwNjI4NjY0MzQy.YD0YKg.jGoIfV7o1n9TG8dj3A92k1UyaY8")
+bot.run("")
